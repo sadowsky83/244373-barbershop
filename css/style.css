@@ -1,6 +1,137 @@
+html,
 body {
-    font-size: 100%;
-    color: #ffffff;
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 100%;
+  color: #ffffff;
+  background-color: grey;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 20px;
+  background-color: white;
+  background-image: linear-gradient(-45deg, white 45%, black 50%, white 55%);
+  background-size: 20px;
+}
+
+.contaner {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  outline: 2px solid red;
+}
+
+.main-header {
+  margin-bottom: 60px;
+  outline: 2px solid red;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+
+  min-height: 70px;
+  outline: 2px solid red;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+
+  min-height: 70px;
+  outline: 2px solid red;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+
+  outline: 2px solid red;
+}
+
+.features {
+  margin-bottom: 80px;
+
+  outline: 2px solid red;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+
+  min-height: 175px;
+  outline: 2px solid red;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+
+  min-height: 330px;
+  outline: 2px solid red;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+
+  min-height: 330px;
+
+  outline: 2px solid red;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+  outline: 2px solid red;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+
+  min-height: 90px;
+}
+
+h1 {or: #ffffff;
     background-color: grey;
   }
 
